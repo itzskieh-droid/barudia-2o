@@ -72,7 +72,7 @@ class Settings:
         trigger_names = tuple(
             name.strip()
             for name in os.getenv(
-                "BOT_TRIGGER_NAMES", "Disturpe,Disturpe AI,Disturpe AI Chatbot"
+                "BOT_TRIGGER_NAMES", "BarudIA 2o,BarudIA"
             ).split(",")
             if name.strip()
         )
